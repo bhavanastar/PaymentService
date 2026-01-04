@@ -28,7 +28,7 @@ public class StripePGAdapter implements PaymentGatewayAdapter {
                 ProductCreateParams.builder()
                         .setName("ZomatoTest1234")
                         .setDescription("Zomato food test order1234")
-                        .setId("Biryani123456")
+                        .setId("Biryani1234567")
                         .build();
         Product product = Product.create(productCreateParams);
 
